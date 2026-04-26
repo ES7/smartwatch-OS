@@ -1,0 +1,23 @@
+# Build output
+build/
+*.o
+*.bin
+*.pe
+*.img
+*.iso
+
+# QEMU/debug output
+serial.log
+qemu.log
+qemu-debug.log
+qemu.err
+qemu.out
+screen.ppm
+kernel_disasm.txt
+
+# Editor/system files
+.vscode/
+*.swp
+*.tmp
+Thumbs.db
+Desktop.ini
